@@ -14,12 +14,10 @@ body{
     
 }
 
-.left{
+.header .left{
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    flex: 1;
-
 }
 
 .logo{
@@ -50,11 +48,10 @@ button{
     align-self: flex-start;
 }
 
-.right{
+.header .right{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
     max-width: 500px;
 }
 
@@ -132,4 +129,43 @@ a{
     font-weight: bold;
     font-size: 18px;
     width: 800px;
+}
+
+.call-to-action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px;
+}
+
+.call-to-action-modal{
+    background: #3882f6;
+    width: 1000px;
+    height: 75px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action{
+    font-size: 22px;
+    font-weight: 900;
+    color: #f9faf8;
+
+}
+
+.call-to-action-subtext{
+    color: #f9faf8;
+}
+
+.right button{
+    border-radius: 8px;
+    border: 1px solid #f9faf8;
+    padding: 8px 16px;
+    background: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    cursor: grab;
 }
