@@ -169,3 +169,15 @@ a{
     font-weight: bold;
     cursor: grab;
 }
+
+.footer{
+    display: flex;
+    padding: 20px;
+    background: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    color:#f9faf8;
+}
