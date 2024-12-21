@@ -7,7 +7,6 @@ body{
 .header{
     display: flex;
     background: #1f2937;
-    border: solid red;
     justify-content: center;
     gap: 4em;
     padding: 16px;
@@ -109,4 +108,28 @@ a{
     height: 150px;
     width: 150px;
     margin-bottom: 15px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    padding: 130px;
+    background: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 800px;
+}
+
+.quote-author{
+    text-align: end;
+    font-weight: bold;
+    font-size: 18px;
+    width: 800px;
 }
